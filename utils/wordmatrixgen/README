@@ -1,0 +1,29 @@
+Run the program wordmatrixgen.py from a terminal window.  It will look in its directory for the config file for the matrix size.. In this case its hardcoded to be 16x16.  The cfg file is only to add the text to the button matrix.  
+
+Click on the buttons you want to have active in the bitmap and click export.  Button clicks toggle the state of the button.
+
+Look in the terminal window and copy the output.
+
+See the wordmatrixgen_running.jpg to view an example of the output and application.
+
+The matrix format is as follows:
+/*
+CC,CC,CC,CC,CC,CC,CC,CC,   CC,CC,CC,CC,CC,CC,CC,CC   RR  BIN   Byte
+---------------------------------------------------------------------
+15,14,13,12,11,10,09,08,   07,06,05,04,03,02,01,00,  15  240   30
+15,14,13,12,11,10,09,08,   07,06,05,04,03,02,01,00,  14  224   28
+15,14,13,12,11,10,09,08,   07,06,05,04,03,02,01,00,  13  208   26
+15,14,13,12,11,10,09,08,   07,06,05,04,03,02,01,00,  12  192   24
+15,14,13,12,11,10,09,08,   07,06,05,04,03,02,01,00,  11  176   22
+15,14,13,12,11,10,09,08,   07,06,05,04,03,02,01,00,  10  160   20
+15,14,13,12,11,10,09,08,   07,06,05,04,03,02,01,00,  09  144   18
+15,14,13,12,11,10,09,08,   07,06,05,04,03,02,01,00,  08  128   16
+15,14,13,12,11,10,09,08,   07,06,05,04,03,02,01,00,  07  112   14
+15,14,13,12,11,10,09,08,   07,06,05,04,03,02,01,00,  06  096   12
+15,14,13,12,11,10,09,08,   07,06,05,04,03,02,01,00,  05  080   10
+15,14,13,12,11,10,09,08,   07,06,05,04,03,02,01,00,  04  064   08
+15,14,13,12,11,10,09,08,   07,06,05,04,03,02,01,00,  03  048   06
+15,14,13,12,11,10,09,08,   07,06,05,04,03,02,01,00,  02  032   04
+15,14,13,12,11,10,09,08,   07,06,05,04,03,02,01,00,  01  016   02
+15,14,13,12,11,10,09,08,   07,06,05,04,03,02,01,00,  00  000   00
+*/
