@@ -1,0 +1,2 @@
+#Flash photon via USB with DFU Utils
+particle flash --usb photon_firmware.bin
